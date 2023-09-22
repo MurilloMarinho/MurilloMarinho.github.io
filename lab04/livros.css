@@ -1,0 +1,17 @@
+#exercicio {
+    color: lightgray;
+}
+
+#gray {
+    padding: 50px;
+    background-color: gray;
+}
+
+fieldset {
+    padding-bottom: 200px;
+    padding-left: 650px;
+}
+
+input, textarea {
+    margin-bottom: 50px;
+}

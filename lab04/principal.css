@@ -1,0 +1,12 @@
+h3 {
+    color: lightgray;
+}
+
+#gray {
+    padding: 50px;
+    background-color: gray;
+}
+
+ul {
+  list-style-type:none ;
+}
