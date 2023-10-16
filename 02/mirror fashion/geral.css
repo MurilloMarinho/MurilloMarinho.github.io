@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Roboto:400,700,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Container centralizador do layout*/
+.conteiner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+#topo{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#topo .sacola{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    width: 140px;
+    background-repeat: no-repeat; 
+    background-position: top right; 
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    font-size: 14px;
+}
+
+#topo .menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#topo .menu li {
+    display: inline;
+    margin-left: 10px;
+}
+
+/*Rodapé*/
+#rodape{
+    background-color: gray;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.cabecalho{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 15px;
+    background-image: url('../img/sobre-background.jpg');
+    text-transform: uppercase;
+    font-weight: bold;
+}
