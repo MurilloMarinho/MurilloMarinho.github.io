@@ -66,39 +66,54 @@ nav ul li a {
 }
 
 
-#boxes {
-    display: block;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    
-}
-
-#boxes p {
-    margin-bottom: 40px;
-}
-
-#boxes contaier {
-    display: inline;
-
-}
-
-#boxes div {
+.centro {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
 }
 
-#boxes div {
-border: 1px;
-border-color: black;
-margin-bottom: 40px;
+.centro h2 {
+    color: grey;
+    margin-bottom: 60px;
 }
 
-#boxes a {
+.centro a {
+    background-color: green;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     text-decoration: none;
-    background-color: rgb(70, 156, 62);
-    color: #fff;
-    padding: 8px;
-    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    gap: 3vw;
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 20px;
 }
 
 #green {
